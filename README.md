@@ -29,7 +29,7 @@ The whole file has been made as an example of usage. In this case, we want to se
 
 ### Setup
 
-You must provide the data you want to send to each receiver. To do this go to DATA sheet and paste or configure any conection to other excel or access file. After the two lines there are the emails, that are retrived from EMAILS sheet. It the email for each supplier is not found it will raise a cell error statint ("NOT FOUND IN EMAILS")
+You must provide the data you want to send to each receiver. To do this go to DATA sheet and paste or configure any connection to other excel or access file. After the two lines there are the emails, that are retreived from EMAILS sheet. If the email for each supplier is not found it will raise a cell error statint ("NOT FOUND IN EMAILS")
 If you want to change the size of the data columns (the one before the emails, CC and BCC) you would have to change the two pivot table data origins.
 
 Next is to provide the emails in the EMAILS sheet. This can be done manually or with any connection to other files.
